@@ -1,0 +1,5 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.6
+# opencv-python  # only for the LPW scripts: lpw_precision.py, lpw_coverage_bias.py, lpw_autocorr.py
+# MATLAB or GNU Octave  # optional, only for code/matlab (the original model)

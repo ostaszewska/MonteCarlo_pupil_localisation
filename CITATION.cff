@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Monte Carlo uncertainty evaluation of binary-centroid pupil localisation: code and data"
+abstract: >-
+  Measurement model, analysis scripts and Monte Carlo results for a JCGM 101
+  uncertainty evaluation of binary-centroid pupil localisation in video-oculography,
+  including a closed-form coverage-fraction model of the threshold-induced bias, a
+  verification on real infrared pupil geometry (LPW dataset) and the original
+  MATLAB/Octave model from which the Python implementation was ported.
+type: software
+license: MIT
+version: "1.0.0"
+authors:
+  - family-names: Ostaszewska-Liżewska
+    given-names: Anna
+    orcid: "https://orcid.org/0000-0002-5203-8129"
+    affiliation: "Warsaw University of Technology, Faculty of Mechatronics"
+keywords:
+  - measurement uncertainty
+  - Monte Carlo method
+  - JCGM 101
+  - bias correction
+  - subpixel localisation
+  - eye tracking
+references:
+  - type: data
+    title: "Labeled pupils in the wild (LPW)"
+    authors:
+      - family-names: Bulling
+        given-names: Andreas
+    doi: 10.18419/DARUS-3237
+    year: 2023
+    notes: >-
+      Third-party dataset used for the real-image verification, licensed under
+      CC BY-NC-SA 4.0. Not redistributed here; see README.md.

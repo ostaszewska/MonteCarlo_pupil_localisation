@@ -1,0 +1,113 @@
+{
+ "design_space": {
+  "u_span_noise_0.50_over_0.05": 5.6065895476141305,
+  "u_span_pitch_2.5_over_0.5": 11.37128037128037,
+  "u_range_um": [
+   36.63,
+   542.83
+  ],
+  "u_range_pct_of_pupil": [
+   0.7326000000000001,
+   10.856600000000002
+  ],
+  "gaze_rise_pct_at_sigma_0.05": 43.01797149349309,
+  "gaze_rise_pct_at_sigma_0.10": 39.17895962732918,
+  "gaze_rise_pct_over_pitch": [
+   21.5486409155937,
+   44.82664482664481
+  ],
+  "discard_pct_r3.333_axis": 3.2777777777777795,
+  "availability_r3.333_alpha60": [
+   0.37388888888888894,
+   0.3783333333333334
+  ],
+  "discard_pct_r2.5_max": 1.6666666666666718,
+  "shared_point_u_um": [
+   103.04,
+   102.01,
+   101.75
+  ],
+  "shared_point_spread_pct": 1.2678132678132739,
+  "sigma_between_pct_of_within_ref": 0.8943488943488943,
+  "sigma_between_pct_of_within_r0.25": 3.8796516231195564
+ },
+ "grid": {
+  "base_grid_max_departure_pct": 19.534245469588733
+ },
+ "error_distribution": {
+  "u_y_over_u_x": 1.0135419795814347,
+  "deg_sigma_0.05_averaged_60_frames": 0.06853237696539836
+ },
+ "lpw_precision": {
+  "5px": {
+   "rms_rel_dev_pct_all": 13.04583477175402,
+   "rms_rel_dev_pct_sigma_le_0.15": 19.81465113831361
+  },
+  "25px": {
+   "rms_rel_dev_pct_all": 20.391693598498797,
+   "rms_rel_dev_pct_sigma_le_0.15": 37.07721877898164
+  }
+ },
+ "model_incompleteness": {
+  "shot_change_pct_at_sigma_0.10": -1.3660933660933667,
+  "shot_change_pct_max_abs": 12.590441251401208,
+  "optics_change_pct_fwhm0.5_max_abs": 2.7739976970585216,
+  "optics_change_pct_fwhm1.0": [
+   -8.625562650476285,
+   9.15622133904005
+  ],
+  "contrast_0.3_factor": 4.428992628992629,
+  "diameter_drawn_change_pct": 2.1130221130221187,
+  "photopic_3.09mm_factor": 1.3557739557739557
+ },
+ "bias_direction": {
+  "knee_sigma": 0.2,
+  "above_knee_deg": -134.0072587992962,
+  "above_knee_rms_deg": 7.437131833869827,
+  "above_knee_points": 18,
+  "below_knee_deg": 48.89487588274679,
+  "below_knee_points": 3,
+  "ladder_measured_below_deg": 52.13595409806361,
+  "ladder_measured_above_deg": -135.09673605187146,
+  "ladder_predicted_below_deg": 52.929268690115514,
+  "ladder_predicted_above_deg": -135.9750276343168,
+  "ladder_max_departure_deg": 5.300000000000001
+ },
+ "threshold": {
+  "best_t_at_sigma_0.10": 0.6,
+  "u_at_best_um": 87.2,
+  "u_at_best_below_t0.50_pct": 12.625250501001995,
+  "worst_cost_pct": 45.64220183486238,
+  "direction_sigma_0.30_0.50_deg": -132.91227253895255,
+  "direction_sigma_0.30_0.50_max_dev_deg": 5.512272538952536,
+  "direction_sigma_0.10_deg": 38.64891571971332
+ },
+ "coverage": {
+  "k_effective_range": [
+   1.9273705635508687,
+   2.029645668479085
+  ]
+ },
+ "estimators": {
+  "weighted_gated_gain_pct_at_sigma_0.10": 37.32809430255403,
+  "variable_noise_correction_gain_pct": 9.44517833553501,
+  "variable_noise_ellipse_gain_over_corrected_pct": 6.491611962071486,
+  "variable_noise_frac_above_0.20_pct": 11.466666666666667,
+  "cost_centroid_pct_of_500us": 4.184999997960404,
+  "cost_ellipse_pct_of_500us": 52.04424999828916
+ },
+ "crlb": {
+  "pitch_range_mm": [
+   0.25,
+   2.0
+  ],
+  "ratio_over_pitch": [
+   2.746747986514277,
+   2.901600262170363
+  ],
+  "ratio_over_noise": [
+   2.1341755260378545,
+   5.214001373479311
+  ]
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "fine_sweep": {
+  "0.500": {
+   "sigma_within_um": 36.49,
+   "grid": "converged (oversample 5)"
+  },
+  "0.333": {
+   "sigma_within_um": 19.45,
+   "grid": "converged (oversample 5)"
+  },
+  "0.250": {
+   "sigma_within_um": 12.63,
+   "grid": "converged (oversample 5)"
+  },
+  "0.200": {
+   "sigma_within_um": 9.332699134984093,
+   "grid": "base grid (oversample 1)"
+  },
+  "0.167": {
+   "sigma_within_um": 6.963690186013126,
+   "grid": "base grid (oversample 1)"
+  },
+  "0.125": {
+   "sigma_within_um": 4.545144234306933,
+   "grid": "base grid (oversample 1)"
+  },
+  "0.100": {
+   "sigma_within_um": 3.321534427332396,
+   "grid": "base grid (oversample 1)"
+  }
+ },
+ "law": {
+  "A": 100.93801229458477,
+  "beta": 1.4882708502650437
+ },
+ "lever_arm_mm": [
+  10.45,
+  0.5
+ ],
+ "k_det": 3.0,
+ "fs_hz": 2000.0,
+ "band_hz": 1.0,
+ "targets": {
+  "6 arcsec (peak)": {
+   "A_um": [
+    0.3039976434654068,
+    0.014556316368599283
+   ],
+   "s_req_waveform_um": 0.10133254782180229,
+   "s_req_spectral_um": 2.265864652627981,
+   "r_spectral_mm": 0.07798538363705196,
+   "r_spectral_ci95": [
+    0.07300413091766934,
+    0.08285142411588128
+   ],
+   "pupil_px": 64.18136477827133
+  },
+  "17.5 arcsec (median)": {
+   "A_um": [
+    0.88665979344077,
+    0.042455922741747906
+   ],
+   "s_req_waveform_um": 0.2955532644802566,
+   "s_req_spectral_um": 6.60877190349828,
+   "r_spectral_mm": 0.1600959252878473,
+   "r_spectral_ci95": [
+    0.14986992874837174,
+    0.17008540301577593
+   ],
+   "pupil_px": 31.263808529691563
+  },
+  "60 arcsec (max)": {
+   "A_um": [
+    3.0399764346540685,
+    0.1455631636859928
+   ],
+   "s_req_waveform_um": 1.0133254782180228,
+   "s_req_spectral_um": 22.65864652627981,
+   "r_spectral_mm": 0.36638182250673185,
+   "r_spectral_ci95": [
+    0.3429794826761316,
+    0.389242885642901
+   ],
+   "pupil_px": 13.661180896852763
+  }
+ },
+ "waveform_gap": 3.277855436116597,
+ "band_limited": {
+  "noise_um": 0.3638558662759915,
+  "rms_um": 1.0915675988279745,
+  "peak_arcsec": 30.470141884200594
+ },
+ "band_exponent": 0.33596035285576936,
+ "band_halved": 0.7922565828715822,
+ "band_doubled": 1.2622173442541043
+}
